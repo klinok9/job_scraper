@@ -95,3 +95,80 @@ if errors:
 # h.close()
 ten_days_ago = dt.date.today() - dt.timedelta(10)
 Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
+
+
+
+
+# import codecs
+# import os, sys
+#
+# from django.contrib.auth import get_user_model
+# from django.db import DatabaseError
+#
+#
+# proj = os.path.dirname(os.path.abspath('manage.py'))
+# sys.path.append(proj)
+# os.environ["DJANGO_SETTINGS_MODULE"] = "jobscraper.settings"
+#
+# import django
+#
+# django.setup()
+#
+# from scraping.parsers import djinni, work
+# from scraping.models import Vacancy, City, Language, Error, Url
+#
+# User = get_user_model()
+#
+# parsers = ((djinni, 'djinni'),
+#            (work, 'work'))
+#
+#
+# # уникальный набор города и языка программирова
+# def get_settings():
+#     qs = User.objects.filter(send_email=True).values()
+#     settings_lst = set((q['city_id'], q['language_id']) for q in qs)
+#     return settings_lst
+#
+#
+# #набор урлов
+# def get_urls(_settings):
+#     qs = Url.objects.all().values()
+#     url_dict = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
+#     urls = []
+#     for pair in _settings:
+#         if pair in url_dict:
+#             tmp = {}
+#             tmp['city'] = pair[0]
+#             tmp['language'] = pair[1]
+#             url_data = url_dict.get(pair)
+#             if url_data:
+#                 tmp['url_data'] = url_dict.get(pair)
+#                 urls.append(tmp)
+#     return urls
+#
+# settings = get_settings()
+# url_list = get_urls(settings)
+# # city = City.objects.filter(slug='kiev').first()
+# # language = Language.objects.filter(slug='python').first()
+#
+# jobs, errors = [], []
+# for data in url_list:
+#     for func, key in parsers:
+#         url = data['url_data'][key]
+#         j, e = func(url, city=data['city'], language=data['language'])
+#         jobs += j
+#         errors += e
+#
+# for job in jobs:
+#     v = Vacancy(**job)
+#     try:
+#         v.save()
+#     except DatabaseError:
+#         pass
+# if errors:
+#     er = Error(data=errors).save()
+#
+# h = codecs.open('work.txt', 'w', 'utf-8')
+# h.write(str(jobs))
+# h.close()
+
