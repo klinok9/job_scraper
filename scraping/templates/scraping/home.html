@@ -1,24 +1,14 @@
 {% extends 'base.html' %}
 {% block title %} Home{% endblock %}
 {% block content %}
-{% for obj in object_list %}
-    <div class="card my-2">
-  <h5 class="card-header"><p><a href="{{ obj.url }}"> {{ obj.title }}</a></p></h5>
-  <div class="card-body">
-    <h4>Название компании:<br>{{ obj.company}}</h4>
-    <p class="card-text">{{ obj.description}}</p>
-      <p>{{ obj.city.name }} | {{ obj.language.name }} | {{ obj.timestamp }}</p>
-
-  </div>
-</div>
-{#    # если нет вакансий то выводит следующее#}
-{% empty %}
-    <h3 class="col-md-6 mx-auto">Нет вакансий по вашему запросу</h3>
-{% endfor %}
+    <div class="row">
+        <div class="col"><h2 class="text-center">Сервис по сбору и рассылки вакансий</h2></div>
+    </div>
 
 <div class="row">
     <div class="col-md-6 mx-auto">
-        <form action="">
+        <h4>Для просмотра доступных вакансий, заполните форму по одному из полей</h4>
+        <form action="{% url 'list' %}">
             <div class="form-group">
             {{ form.as_p }}
             </div>
