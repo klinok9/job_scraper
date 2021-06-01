@@ -121,7 +121,7 @@ def dou(url, city=None, language=None):
 def djinni(url, city=None, language=None):
     jobs = []
     errors = []
-    domain = 'https://djinni.co'
+    domain = 'https://djinni.co/jobs/?location=%D0%9A%D0%B8%D0%B5%D0%B2&primary_keyword=Python'
     if url:
         resp = requests.get(url, headers=headers[randint(0, 2)])
         if resp.status_code == 200:
@@ -143,8 +143,8 @@ def djinni(url, city=None, language=None):
                     if comp:
                         company = comp.text
                     jobs.append({'title': title.text, 'url': domain + href,
-                                 'description': content, 'company': company,
-                                 'city_id': city, 'language_id': language})
+                                 'description': content, 'company': company,})
+                                 # 'city_id': city, 'language_id': language})
             else:
                 errors.append({'url': url, 'title': "Div does not exists"})
         else:
