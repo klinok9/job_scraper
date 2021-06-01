@@ -1,2 +1,3 @@
 /venvm
 /jobscraper/*.env
+/jobscraper/settings/local_settings.py

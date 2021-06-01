@@ -1,0 +1,1 @@
+web: gunicorn jobscraper.wsgi --log-file –
