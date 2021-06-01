@@ -1,0 +1,644 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-05-30T14:45:12.787Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Киев",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-05-30T14:45:16.192Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Киев",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-05-30T14:45:31.058Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-05-30T16:05:46.036Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Python Developer (BigData)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-05-30T16:06:12.261Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Москва",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Название города",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Название города",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Название города",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Название города",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Название языка программирования",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Название языка программирования",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Название языка программирования",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Название языка программирования",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Вакансия",
+    "content_type": 8,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Вакансия",
+    "content_type": 8,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Вакансия",
+    "content_type": 8,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Вакансия",
+    "content_type": 8,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add error",
+    "content_type": 9,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change error",
+    "content_type": 9,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete error",
+    "content_type": 9,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view error",
+    "content_type": 9,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add url",
+    "content_type": 10,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change url",
+    "content_type": 10,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete url",
+    "content_type": 10,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view url",
+    "content_type": 10,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 11,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 11,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 11,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 11,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "Киев",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 2,
+  "fields": {
+    "name": "Москва",
+    "slug": "moskva"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 1,
+  "fields": {
+    "url": "https://www.work.ua/jobs-kyiv-python/",
+    "title": "Python Developer (BigData)",
+    "company": "Альфа-Банк Україна",
+    "description": "Опис вакансії\r\n\r\nШукаємо людину, яка буде:\r\nбудувати моделі даних в Cloudera Data Hab (CDH), Cloudera Data Platform (CDP) для аналітиків даних;\r\nаналізувати потреби замовника;\r\nрозробляти процедури отримання даних з використанням компонентів CDH (CDP);\r\nреалізовувати розрахунок аналітичних показників на Python;\r\nрозробляти процедури автоматизації ETL (ELT)-процесів;\r\nрозробляти процедуру отримання і обробки online інформації (Kafka, Spark, Nifi);\r\nдокументувати розроблений функціонал.\r\nТи підходиш, якщо в тебе:\r\nдосвід розробки на SQL не менше 2-х років;\r\nдосвід розробки на Python + Spark;\r\nрозумінні принципів моделі розподілених обчислень;\r\nзнайомство з інструментарієм екосистеми Hadoop (Spark, Kafka, Hive, Sqoop);\r\nбажано: досвід побудови потоків ETL (ELT) на платформі Hadoop, скриптових мов (Bash).\r\nЧому потрібно йти саме до нас?\r\nБо ми особливі.\r\nБільшість компаній мають повністю офіційну зарплату, медичне страхування, гнучкий графік роботи, можливість працювати віддалено, оплачувану відпустку та лікарняні, тощо. Ми теж.\r\nАле оскільки Альфа-Банк — це #робота_на_мільйон, то ми додатково пропонуємо:\r\nАдаптацію на мільйон: стильний welcome pack з набором найнеобхіднішого для роботи як в офісі, так і вдома, а також welcome day, на якому наші топменеджери познайомлять тебе з компанією.\r\nМільйон бонусів: знижки від більш ніж 100 партнерів Альфа-Банку (магазини/ресторани/навчання/розваги/послуги та інше); ексклюзивна партнерська програма зі SportLife; пакет Alfa Finance (спеціальні умови банківського обслуговування для співробітників).\r\nЗдійснення мрій на мільйон: корпоративна програма іпотечного кредитування та придбання авто в лізинг.\r\nРозвиток та мотивація на мільйон: прогресивне навчання для всіх категорій співробітників (hard & soft, online & offline, internal & external); внутрішня IT School для прокачки digital skills та цифрового мислення; програми визнання кращих; доступ до світової електронної бібліотеки.\r\nВідпочинок на мільйон: 4 додаткові дні щорічної оплачуваної відпустки + вихідний у день народження та два всеукраїнських корпоративи — Family Day i New Year Party.\r\nВідповідальність на мільйон: сприяння досягненню цілей сталого розвитку ООН, Дні донора, ECODAYS, участь у благодійних спортивних заходах, підтримка Національного інституту серцево-судинної хірургії ім. М. М. Амосова та підшефних дитячих будинків.\r\nАльфа для тих, хто хоче здобути досвід роботи в динамічному digital-банку та реалізувати амбіційні проєкти.\r\nГотовий? Відправляй резюме!",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2021-05-30"
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$9mS0hAdYGenLQ5Hko1lj91$i9m12pUMCFzKeP5+I4/mzktD+kanXtKUyBo1/KIeygY=",
+    "last_login": "2021-05-30T18:45:22.048Z",
+    "email": "admin@admin.ru",
+    "is_active": true,
+    "is_admin": true,
+    "city": 1,
+    "language": 1,
+    "send_email": false
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$GsnvKen1P7XlcpmVtZcc1h$cUDjQ6Xemhnrf9e44NL5c+bkPWVzIuvbgSMaL4m7+30=",
+    "last_login": "2021-05-30T17:11:00.221Z",
+    "email": "ad@ad.ad",
+    "is_active": true,
+    "is_admin": false,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$fulhjfgSJW0LhwUmA7xZcL$gHH9xHuw3Y56Djl+tfY4wSC6KtAOKW+F2ymUqpKMi94=",
+    "last_login": "2021-05-30T17:25:00.871Z",
+    "email": "1@11.ru",
+    "is_active": true,
+    "is_admin": false,
+    "city": 1,
+    "language": 1,
+    "send_email": false
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$oOcRZx6nT5ltdjPxCE2ZUM$nHhX3jSIh79Z2NzYQ/ur2vuoz5hoyy2i/t2P2wywP9k=",
+    "last_login": "2021-05-30T18:45:01.963Z",
+    "email": "sudoivan1@gmail.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+}
+]
