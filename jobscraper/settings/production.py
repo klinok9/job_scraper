@@ -37,7 +37,7 @@ SECRET_KEY = 'django-insecure--k8p-f5&z9x5xu0i*bvnk!$av&9jktgvczv8@wh2(2+z2jp#9m
 DEBUG = False
 
 # адрес сервера где находитс джанго
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['poisk-1.herokuapp.com']
 
 
 # Application definition
