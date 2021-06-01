@@ -8,7 +8,7 @@ from django.db import DatabaseError
 
 proj = os.path.dirname(os.path.abspath('manage.py'))
 sys.path.append(proj)
-os.environ["DJANGO_SETTINGS_MODULE"] = "jobscraper.settings"
+os.environ["DJANGO_SETTINGS_MODULE"] = "scraping_service.settings"
 
 import django
 django.setup()
@@ -93,5 +93,5 @@ if errors:
 # h = codecs.open('work.txt', 'w', 'utf-8')
 # h.write(str(jobs))
 # h.close()
-# ten_days_ago = dt.date.today() - dt.timedelta(10)
-# Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
+ten_days_ago = dt.date.today() - dt.timedelta(10)
+Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
